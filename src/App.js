@@ -9,14 +9,14 @@ import Quizz from './pages/quizz/Quizz';
 function App () {
 	return (
 		<div className="App">
-			<Link to="/simple-apps/">HOME</Link>
+			<Link to="/simple-react-apps/">HOME</Link>
 			<div className="content">
 				<Routes>
-					<Route path="/simple-apps/" element={ <Home /> } />
-					<Route path="/simple-apps/counter/" element={ <Counter /> } />
-					<Route path="/simple-apps/modal/" element={ <Modal /> } />
-					<Route path="/simple-apps/quizz/" element={ <Quizz /> } />
-					<Route path="/simple-apps/invite/" element={ <Invite /> } />
+					<Route path="/simple-react-apps/" element={ <Home /> } />
+					<Route path="/simple-react-apps/counter/" element={ <Counter /> } />
+					<Route path="/simple-react-apps/modal/" element={ <Modal /> } />
+					<Route path="/simple-react-apps/quizz/" element={ <Quizz /> } />
+					<Route path="/simple-react-apps/invite/" element={ <Invite /> } />
 				</Routes>
 			</div>
 		</div>

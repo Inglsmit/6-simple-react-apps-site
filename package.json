@@ -2,7 +2,7 @@
 	"name": "6-simple-react-apps-site",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://inglsmit.github.io/simple-apps/",
+	"homepage": "https://inglsmit.github.io/simple-react-apps/",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",

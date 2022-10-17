@@ -28,7 +28,7 @@ function Result ( { rightAnswers } ) {
 		<div className="result">
 			<img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png" />
 			<h2>You answered correctly { rightAnswers } times from { questions.length }</h2>
-			<a href='/simple-apps/quizz/'>
+			<a href='/simple-react-apps/quizz/'>
 				<button>Try again</button>
 			</a>
 		</div>
