@@ -15,6 +15,6 @@ export const User = ( { id, avatar, first_name, last_name, email, isInvited, onC
 				</p>
 			</div>
 		</div>
-		<img onClick={ () => onClickInvite( id ) } className="action" src={ `${process.env.PUBLIC_URL}/simple-react-apps/assets/invite/${ isInvited ? 'minus' : 'plus' }.svg` } alt="Action" />
+		<img onClick={ () => onClickInvite( id ) } className="action" src={ `${process.env.PUBLIC_URL}/assets/invite/${ isInvited ? 'minus' : 'plus' }.svg` } alt="Action" />
 	</li>
 );
